@@ -11,3 +11,5 @@
 
 ## Libraries used
 - [Odometer](https://github.hubspot.com/odometer/)
+- OneWire
+- DallasTemperature
