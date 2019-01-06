@@ -98,7 +98,7 @@ void setup(void) {
   Serial.print("IP address: ");
   Serial.println(WiFi.localIP());
 
-  if (MDNS.begin("Termometer")) {
+  if (MDNS.begin("Thermometer")) {
     Serial.println("MDNS responder started");
   }
 
