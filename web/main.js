@@ -26,16 +26,16 @@ function init() {
 
     client.get(ip + '/json?k=' + key, function (response) {
         var root = JSON.parse(response);
-        upg.innerHTML = root.in;
-        downg.innerHTML = root.out;
+        upg.innerHTML = root.out;
+        downg.innerHTML = root.in;
     });
 
     setInterval(function () {
         console.log("reloading!");
         client.get(ip + '/json?k=' + key, function (response) {
             var root = JSON.parse(response);
-            upg.innerHTML = root.in;
-            downg.innerHTML = root.out;
+            upg.innerHTML = root.out;
+            downg.innerHTML = root.in;
         });
     }, 30000);
 }
