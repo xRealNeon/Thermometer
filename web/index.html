@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8">
     <meta name="author" content="NeoCode.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A standalone web based Thermometer">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Thermometer">
+    <meta name="mobile-web-app-capable" content="yes">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" type="image/png" href="https://i.ibb.co/PM9QSbV/sun-1.png">
@@ -12,7 +15,6 @@
         var version = 1.0;
         var ip = "IP";
         var key = "KEY";
-
     </script>
     <script src="main.js"></script>
     <link rel="stylesheet" href="http://github.hubspot.com/odometer/themes/odometer-theme-default.css" />
@@ -21,7 +23,6 @@
 </head>
 
 <body onload="init()">
-
     <table cellpadding="0" cellspacing="0" style="height:100%; width: 100%;">
         <tr>
             <td><span class="odometer" id="upg">0</span>°C</td>
@@ -30,7 +31,5 @@
             <td><span class="odometer" id="downg">0</span>°C</td>
         </tr>
     </table>
-
 </body>
-
 </html>

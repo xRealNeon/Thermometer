@@ -23,13 +23,11 @@ function init() {
         }
         console.log("reloading in 30 seconds");
     });
-
     client.get(ip + '/json?k=' + key, function (response) {
         var root = JSON.parse(response);
         upg.innerHTML = root.out;
         downg.innerHTML = root.in;
     });
-
     setInterval(function () {
         console.log("reloading!");
         client.get(ip + '/json?k=' + key, function (response) {
