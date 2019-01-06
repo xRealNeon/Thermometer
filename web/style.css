@@ -1,0 +1,21 @@
+body,
+html {
+    margin: 0;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+table tr {
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    font-family: 'Roboto', sans-serif;
+}
+
+table tr:nth-child(1) {
+    background-color: #3498db;
+}
+
+table tr:nth-child(2) {
+    background-color: #e74c3c;
+}
