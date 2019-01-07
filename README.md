@@ -1,6 +1,5 @@
 # Thermometer
 
-[![](https://img.shields.io/github/release/xRealNeon/Thermometer.svg)](https://github.com/xRealNeon/Thermometer/releases)
 [![](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/xRealNeon/Thermometer/blob/master/LICENSE)
 [![Discord](https://discordapp.com/api/guilds/365206523749728266/embed.png)](https://discord.gg/rpvdY42)
 
