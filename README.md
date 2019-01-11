@@ -7,6 +7,7 @@
 - Mobile web app compatible
 - API
 - FlatUI dashboard
+- Config generator
 
 ## Use the API
 ### Get the temperature: `GET` yoururl/json?k=yourkey
