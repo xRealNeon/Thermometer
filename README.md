@@ -26,6 +26,8 @@
 - [DS18B20 Outdoor (AliExpress)](https://www.aliexpress.com/item/Free-Shipping-1PCS-Digital-Temperature-Temp-Sensor-Probe-DS18B20-For-Thermometer-1m-Waterproof-100CM/32522322459.html)
 
 ## Libraries used
+- [Bootstrap](https://getbootstrap.com/)
+- [MobileDetect](https://hgoebl.github.io/mobile-detect.js/)
 - [Odometer](https://github.hubspot.com/odometer/)
 - OneWire
 - DallasTemperature
