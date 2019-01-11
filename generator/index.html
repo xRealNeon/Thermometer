@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="https://xrealneon.github.io/Thermometer/web/icon.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="jszip.js"></script>
+    <script src="FileSaver.js"></script>
+    <script src="main.js"></script>
+    <title>Download Thermometer</title>
+</head>
+<style>
+    body {
+        background-color: #ecf0f1;
+        animation-name: in;
+        animation-duration: 0.5s;
+    }
+    
+    @keyframes in {
+        0% {
+            filter: blur(8px);
+        }
+        100%{
+            filter: blur(0px);
+        }
+    }
+    
+    #main {
+        margin: 20px;
+    }
+    .ele{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+</style>
+
+<body onload="init()">
+    <div id="main">
+        <input type="name" class="form-control ele" id="wlanssid" aria-describedby="emailHelp" placeholder="WLAN SSID">
+        <input type="password" class="form-control ele" id="wlanpass" aria-describedby="emailHelp" placeholder="WLAN Password">
+        <input type="name" class="form-control ele" id="url" aria-describedby="emailHelp" placeholder="Your Url">
+        <input type="name" class="form-control ele" id="key" aria-describedby="emailHelp" placeholder="Custom Key (if you want to generate one leave this blank)">
+        <input type="name" class="form-control ele" id="statusled" aria-describedby="emailHelp" placeholder="Status LED (Standart: LED_BUILTIN)">
+        <input type="name" class="form-control ele" id="outpin" aria-describedby="emailHelp" placeholder="Out sensor pin">
+        <input type="name" class="form-control ele" id="inpin" aria-describedby="emailHelp" placeholder="In sensor pin">
+        <button onclick="press()" class="btn btn-primary btn-lg ele">Download!</button>
+    </div>
+    <div class="modal fade" id="donemodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Succsess!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    adiouawhdoawdo
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" onclick="openT()">Open your thermometer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

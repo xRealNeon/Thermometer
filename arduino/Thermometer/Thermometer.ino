@@ -12,8 +12,8 @@
 #define ONE_WIRE_BUS_2 D2
 
 
-OneWire oneWire_in(sensor1);
-OneWire oneWire_out(sensor2);
+OneWire oneWire_in(inpin);
+OneWire oneWire_out(outpin);
 
 DallasTemperature sensor_inhouse(&oneWire_in);
 DallasTemperature sensor_outhouse(&oneWire_out);
@@ -110,7 +110,7 @@ void setup(void) {
 
   server.begin();
 
-  main.replace("%IP%", ip);
+  main.replace("%URL%", url);
   main.replace("%KEY%", key);
 
   if (status_light) {
