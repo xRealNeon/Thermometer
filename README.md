@@ -1,7 +1,8 @@
-# Thermometer
-
-[![](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/xRealNeon/Thermometer/blob/master/LICENSE)
-[![Discord](https://discordapp.com/api/guilds/365206523749728266/embed.png)](https://discord.gg/rpvdY42)
+<h1 align="center">Thermometer</h1>
+<p align="center">
+<a href="https://discord.gg/rpvdY42"><img src="https://discordapp.com/api/guilds/365206523749728266/embed.png"></a>  
+  <a href="https://github.com/xRealNeon/Thermometer/blob/master/LICENSE"><img src="https://img.shields.io/github/license/xRealNeon/thermometer.svg"></a>
+</p>
 
 ## Features
 - Mobile web app compatible
