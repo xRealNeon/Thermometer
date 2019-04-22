@@ -1,5 +1,6 @@
 <h1 align="center">Thermometer</h1>
 <p align="center">
+<a><img src="https://img.shields.io/github/last-commit/xRealNeon/Thermometer.svg"></a>
 <a href="https://discord.gg/rpvdY42"><img src="https://discordapp.com/api/guilds/365206523749728266/embed.png"></a>  
   <a href="https://github.com/xRealNeon/Thermometer/blob/master/LICENSE"><img src="https://img.shields.io/github/license/xRealNeon/thermometer.svg"></a>
 </p>
